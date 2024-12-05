@@ -1,0 +1,39 @@
+2024-12-05T14:14:55.530Z	[34mINFO[0m	engine/engine.go:407	初始化数据库连接
+2024-12-05T14:14:55.544Z	[34mINFO[0m	engine/engine.go:407	初始化配置
+2024-12-05T14:14:55.668Z	[34mINFO[0m	engine/engine.go:407	初始化导航栏按钮
+2024-12-05T14:14:55.670Z	[34mINFO[0m	engine/engine.go:407	初始化插件
+2024-12-05T14:14:55.670Z	[34mINFO[0m	engine/engine.go:407	初始化成功🍺🍺
+2024-12-05T14:15:51.119Z	[34mINFO[0m	controller/handler.go:25	[GoAdmin] access log	{"traceID": "ac1200030416017334081511190001", "statuscode": "200", "method": "GET", "path": "/admin/login"}
+2024-12-05T14:15:51.134Z	[34mINFO[0m	controller/handler.go:25	[GoAdmin] access log	{"traceID": "ac1200030416017334081511320002", "statuscode": "200", "method": "GET", "path": "/admin/assets/login/dist/all.min.css"}
+2024-12-05T14:15:51.134Z	[34mINFO[0m	controller/handler.go:25	[GoAdmin] access log	{"traceID": "ac1200030416017334081511320003", "statuscode": "200", "method": "GET", "path": "/admin/assets/login/dist/all.min.js"}
+2024-12-05T14:15:58.210Z	[34mINFO[0m	controller/handler.go:25	[GoAdmin] access log	{"traceID": "ac1200030416017334081581080004", "statuscode": "200", "method": "POST", "path": "/admin/signin"}
+2024-12-05T14:15:58.275Z	[34mINFO[0m	controller/handler.go:25	[GoAdmin] access log	{"traceID": "ac1200030416017334081582740005", "statuscode": "200", "method": "GET", "path": "/admin/assets/dist/js/all.min.506636f003.js"}
+2024-12-05T14:15:58.282Z	[34mINFO[0m	controller/handler.go:25	[GoAdmin] access log	{"traceID": "ac1200030416017334081582810006", "statuscode": "200", "method": "GET", "path": "/admin/assets/dist/css/all.min.dd4b069ab5.css"}
+2024-12-05T14:15:58.283Z	[34mINFO[0m	controller/handler.go:25	[GoAdmin] access log	{"traceID": "ac1200030416017334081582830007", "statuscode": "200", "method": "GET", "path": "/admin/assets/dist/img/avatar04.png"}
+2024-12-05T14:15:58.284Z	[34mINFO[0m	controller/handler.go:25	[GoAdmin] access log	{"traceID": "ac1200030416017334081582840008", "statuscode": "200", "method": "GET", "path": "/admin/assets/dist/js/treeview.min.3095cd8c12.js"}
+2024-12-05T14:15:58.289Z	[34mINFO[0m	controller/handler.go:25	[GoAdmin] access log	{"traceID": "ac1200030416017334081582890010", "statuscode": "200", "method": "GET", "path": "/admin/assets/dist/js/tree.min.b68a8b6689.js"}
+2024-12-05T14:15:58.289Z	[34mINFO[0m	controller/handler.go:25	[GoAdmin] access log	{"traceID": "ac1200030416017334081582890009", "statuscode": "200", "method": "GET", "path": "/admin/assets/dist/js/datatable.min.43c12443cf.js"}
+2024-12-05T14:15:58.305Z	[34mINFO[0m	controller/handler.go:25	[GoAdmin] access log	{"traceID": "ac1200030416017334081583030012", "statuscode": "200", "method": "GET", "path": "/admin/assets/chart.min.js"}
+2024-12-05T14:15:58.305Z	[34mINFO[0m	controller/handler.go:25	[GoAdmin] access log	{"traceID": "ac1200030416017334081583030011", "statuscode": "200", "method": "GET", "path": "/admin/assets/dist/js/form.min.4022a41f70.js"}
+2024-12-05T14:15:58.309Z	[34mINFO[0m	controller/handler.go:25	[GoAdmin] access log	{"traceID": "ac1200030416017334081583080013", "statuscode": "200", "method": "GET", "path": "/admin/assets/dist/js/all_2.min.1cd3070239.js"}
+2024-12-05T14:15:58.317Z	[34mINFO[0m	controller/handler.go:25	[GoAdmin] access log	{"traceID": "ac1200030416017334081583170014", "statuscode": "200", "method": "GET", "path": "/admin/assets/dist/fonts/fontawesome-webfont.woff2"}
+2024-12-05T14:15:58.407Z	[34mINFO[0m	controller/handler.go:25	[GoAdmin] access log	{"traceID": "ac1200030416017334081584070015", "statuscode": "200", "method": "GET", "path": "/admin/assets/dist/css/fonts/6xK3dSBYKcSV-LCoeQqfX1RYOo3qOK7g.ttf"}
+2024-12-05T14:15:58.425Z	[34mINFO[0m	controller/handler.go:25	[GoAdmin] access log	{"traceID": "ac1200030416017334081584250016", "statuscode": "200", "method": "GET", "path": "/admin/assets/dist/css/fonts/6xKydSBYKcSV-LCoeQqfX1RYOo3i54rwlxdr.ttf"}
+2024-12-05T14:18:11.695Z	[34mINFO[0m	engine/engine.go:407	初始化数据库连接
+2024-12-05T14:18:11.698Z	[34mINFO[0m	engine/engine.go:407	初始化配置
+2024-12-05T14:18:11.700Z	[34mINFO[0m	engine/engine.go:407	初始化导航栏按钮
+2024-12-05T14:18:11.701Z	[34mINFO[0m	engine/engine.go:407	初始化插件
+2024-12-05T14:18:11.701Z	[34mINFO[0m	engine/engine.go:407	初始化成功🍺🍺
+2024-12-05T14:18:19.774Z	[34mINFO[0m	controller/handler.go:25	[GoAdmin] access log	{"traceID": "ac1200030437617334082997610001", "statuscode": "200", "method": "GET", "path": "/admin/menu"}
+2024-12-05T14:18:31.889Z	[34mINFO[0m	controller/handler.go:25	[GoAdmin] access log	{"traceID": "ac1200030437617334083118670002", "statuscode": "200", "method": "POST", "path": "/admin/menu/new"}
+2024-12-05T14:19:07.864Z	[34mINFO[0m	controller/handler.go:25	[GoAdmin] access log	{"traceID": "ac1200030437617334083478020003", "statuscode": "200", "method": "POST", "path": "/admin/menu/new"}
+2024-12-05T14:19:09.767Z	[34mINFO[0m	controller/handler.go:25	[GoAdmin] access log	{"traceID": "ac1200030437617334083497560004", "statuscode": "200", "method": "GET", "path": "/admin/menu"}
+2024-12-05T14:19:11.237Z	[34mINFO[0m	controller/handler.go:25	[GoAdmin] access log	{"traceID": "ac1200030437617334083512230005", "statuscode": "200", "method": "GET", "path": "/admin/info/first_users"}
+2024-12-05T14:19:11.255Z	[34mINFO[0m	controller/handler.go:25	[GoAdmin] access log	{"traceID": "ac1200030437617334083512550006", "statuscode": "200", "method": "GET", "path": "/admin/assets/dist/css/blue.png"}
+2024-12-05T14:19:13.688Z	[34mINFO[0m	controller/handler.go:25	[GoAdmin] access log	{"traceID": "ac1200030437617334083536780007", "statuscode": "200", "method": "GET", "path": "/admin/info/first_users/new"}
+2024-12-05T14:19:29.131Z	[34mINFO[0m	controller/handler.go:25	[GoAdmin] access log	{"traceID": "ac1200030437617334083691130008", "statuscode": "200", "method": "POST", "path": "/admin/new/first_users"}
+2024-12-05T15:06:36.064Z	[34mINFO[0m	engine/engine.go:407	初始化数据库连接
+2024-12-05T15:06:36.110Z	[34mINFO[0m	engine/engine.go:407	初始化配置
+2024-12-05T15:06:36.116Z	[34mINFO[0m	engine/engine.go:407	初始化导航栏按钮
+2024-12-05T15:06:36.125Z	[34mINFO[0m	engine/engine.go:407	初始化插件
+2024-12-05T15:06:36.127Z	[34mINFO[0m	engine/engine.go:407	初始化成功🍺🍺

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="RemoteTargetsManager">
+    <targets>
+      <target name="golang:1.23-alpine" type="docker" uuid="45ab3f49-6256-48d2-819f-debf8b9beb02">
+        <config>
+          <option name="targetPlatform">
+            <TargetPlatform />
+          </option>
+          <option name="buildNotPull" value="false" />
+          <option name="containerConfig">
+            <ContainerConfig>
+              <option name="runCliOptions" value=" -it --rm -v /mnt/a/work/go-admin-bus:/go-admin-bus --network my-network -p 8000:8000 -w /go-admin-bus --name dev" />
+            </ContainerConfig>
+          </option>
+          <option name="pullImageConfig">
+            <PullImageConfig>
+              <option name="tagToPull" value="golang:1.23-alpine" />
+            </PullImageConfig>
+          </option>
+        </config>
+        <ContributedStateBase type="GoLanguageRuntime">
+          <config>
+            <option name="compiledExecutablesVolume">
+              <VolumeState>
+                <option name="targetSpecificBits">
+                  <map>
+                    <entry key="mountAsVolume" value="false" />
+                  </map>
+                </option>
+              </VolumeState>
+            </option>
+            <option name="goPath" value="/go" />
+            <option name="goRoot" value="/usr/local/go/bin/go" />
+            <option name="goVersion" value="go1.23.4 linux/amd64" />
+            <option name="musl" value="true" />
+            <option name="projectSourcesVolume">
+              <VolumeState>
+                <option name="targetSpecificBits">
+                  <map>
+                    <entry key="mountAsVolume" value="false" />
+                  </map>
+                </option>
+              </VolumeState>
+            </option>
+          </config>
+        </ContributedStateBase>
+      </target>
+    </targets>
+  </component>
+</project>
