@@ -15,13 +15,10 @@ import (
 	"github.com/GoAdminGroup/go-admin/template/chartjs"
 	"github.com/gin-gonic/gin"
 
-	"go-admin-bus/models"
 	"go-admin-bus/pages"
 	"go-admin-bus/tables"
 
 	"go-admin-bus/bus"
-	busRouter "go-admin-bus/bus/router"
-	"go-admin-bus/bus/utils"
 )
 
 func main() {
@@ -41,7 +38,6 @@ func startServer() {
 
 	if err := eng.AddConfigFromYAML("./config.yml").
 		AddGenerators(tables.Generators).
-		AddGenerators(bus.Generators).
 		Use(r); err != nil {
 		panic(err)
 	}
@@ -53,14 +49,10 @@ func startServer() {
 		"msg": "Hello world",
 	})
 
-	models.Init(eng.MysqlConnection())
-
-	// 注册 bus 路由
-	jwt := &utils.JWT{
-		Secret:        "your-secret-key",
-		TimeoutSecond: 86400, // 24小时
+	// 初始化 bus
+	if err := bus.Init(eng, r); err != nil {
+		panic(err)
 	}
-	busRouter.InitRouter(r, models.GetDB(), jwt)
 
 	_ = r.Run(":8000")
 

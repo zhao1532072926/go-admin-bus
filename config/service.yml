@@ -1,0 +1,20 @@
+services:
+  - name: "first"
+    sub_services:
+      - "dd"
+      - "aa"
+      - "bb"
+  - name: "second"
+    sub_services:
+      - "xx"
+      - "yy"
+  - name: "third"
+    sub_services:
+      - "mm"
+      - "nn"
+      - "pp" 
+
+
+jwt:
+  secret: "your-secret-key"
+  timeout_second: 86400 # 24 hours
